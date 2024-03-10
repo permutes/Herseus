@@ -1,0 +1,27 @@
+let sections = document.querySelectorAll('section');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 400;
+        let height = sec.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+            sec.classList.add('show-animate');
+        }
+        else{
+            sec.classList.remove('show-animate')
+        }
+    })
+
+    let scrollPosition = window.scrollY;
+
+    sections.forEach(sec => {
+        let offset = sec.offsetTop;
+        let distanceFromTop = offset - scrollPosition;
+        let parallaxSpeed = 0.9; 
+        if (distanceFromTop < window.innerHeight && distanceFromTop > -sec.offsetHeight) {
+            sec.style.backgroundPositionY = `${distanceFromTop * parallaxSpeed}px`;
+        }
+    });
+}
