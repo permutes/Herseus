@@ -13,15 +13,4 @@ window.onscroll = () => {
             sec.classList.remove('show-animate')
         }
     })
-
-    let scrollPosition = window.scrollY;
-
-    sections.forEach(sec => {
-        let offset = sec.offsetTop;
-        let distanceFromTop = offset - scrollPosition;
-        let parallaxSpeed = 0.9; 
-        if (distanceFromTop < window.innerHeight && distanceFromTop > -sec.offsetHeight) {
-            sec.style.backgroundPositionY = `${distanceFromTop * parallaxSpeed}px`;
-        }
-    });
 }
