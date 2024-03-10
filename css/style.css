@@ -86,8 +86,9 @@ section{
     align-items: center;
     min-height: 100vh;
     /* background: linear-gradient(to bottom, #183865, #557c93); */
-    background: #183865;
+    background: #0D203B;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-size: cover;
     background-position: center;
 }
@@ -198,11 +199,7 @@ section .color:nth-child(3) {
 h1{
     position: relative;
     font-size: 90px;
-    color: #fff;
-}
-
-.containerd h1{
-    padding-left: 9%;
+    color: #EBDAB5;
 }
 
 p{
@@ -248,7 +245,8 @@ section.show-animate .animate {
 }
 
 .about p{
-    color: aqua;
+    color: rgb(255, 255, 255);
+    text-align: left;
 }
 
 .features p{
@@ -265,7 +263,7 @@ section.show-animate .animate {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #183865;
+    background: #0D203B;
     transition: 1s;
     transition-delay: calc(.2s * var(--i));
 }
