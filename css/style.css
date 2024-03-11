@@ -187,7 +187,7 @@ section .color:nth-child(3) {
     /* flex-direction: column; */
     padding-left: 3%;
     min-height: 500px;
-    background: rgba(255, 255, 255, 0.04);
+    background: hwb(0 100% 0% / 0.04);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -202,6 +202,12 @@ section .color:nth-child(3) {
 h1{
     position: relative;
     font-size: 90px;
+    color: #EBDAB5;
+}
+
+h2{
+    position: relative;
+    font-size: 50px;
     color: #EBDAB5;
 }
 
@@ -253,7 +259,41 @@ section.show-animate .animate {
 }
 
 .features p{
-    color: aquamarine;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line {
+    height: 2px;
+    background-color: #007bff;
+    flex: 1;
+}
+.process {
+    margin-top: 10px;
+}
+.bend-line {
+    position: relative;
+    width: 60px;
+    height: 30px;
+}
+.bend-line svg {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .team p{
