@@ -78,7 +78,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -202,19 +202,19 @@ section .color:nth-child(3) {
 h1{
     position: relative;
     font-size: 90px;
-    color: #EBDAB5;
+    color: #ffffff;
 }
 
 h2{
     position: relative;
     font-size: 50px;
-    color: #EBDAB5;
+    color: #ffffff;
 }
 
 p{
     position: relative;
     font-size: 35px;
-    color: bisque;
+    color: rgb(255, 255, 255);
 }
 
 section .animate {
