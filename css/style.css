@@ -260,18 +260,17 @@ section.show-animate .animate {
 
 .features p{
     color: rgb(255, 255, 255);
-    text-align: justify;
+    text-align: centre;
     padding-top: 3%;
     padding-left: 4%;
     padding-right: 4%;
 }
 
-
 .circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #007bff;
+    background-color: #006db6;
     color: #fff;
     display: flex;
     align-items: center;
@@ -279,7 +278,7 @@ section.show-animate .animate {
 }
 .line {
     height: 2px;
-    background-color: #007bff;
+    background-color: #006db6;
     flex: 1;
 }
 .process {
@@ -367,3 +366,4 @@ section.show-animate .animate {
   .footer {
     padding: 5rem 0;
   }
+
