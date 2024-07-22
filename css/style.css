@@ -289,7 +289,7 @@ section.show-animate .animate {
     width: 60px;
     height: 30px;
 }
-.bend-line svg {
+    .bend-line svg {
     position: absolute;
     top: 0;
     left: 0;
@@ -319,6 +319,7 @@ section.show-animate .animate {
     margin: 0 30px;
     transform: translateX(-100%);
     transition-delay: calc(.2s * var(--i));
+    margin-bottom: 5vh;
 }
 
 .corosal.show-animate .images img{
